@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lato";
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../images/bg-photo-2.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 20px 80px;
+}
+
+nav {
+    height: 70px;
+    /* background: red; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: #11111018;
+    backdrop-filter: blur(20px);
+    box-shadow: inset 0 0 5px #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.logo span {
+    font-weight: bold;
+    font-family: "Momo Trust Display";
+}
+
+.nav-items {
+    display: flex;
+    gap: 14px;
+}
+
+.nav-items a {
+    /* background: #31604c; */
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.nav-items a:hover {
+    background: #b2b2afb8;
+}
+.menu{
+    cursor: pointer;
+    /* background: black; */
+    padding: 3px 5px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 3px #fff;
+    display: none;
+}
